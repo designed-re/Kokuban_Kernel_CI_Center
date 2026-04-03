@@ -418,7 +418,7 @@ fn handle_setup(
                 }
             }
 
-            let repo_owner = repo_url.split('/').next().unwrap_or("YuzakiKokuban");
+            let repo_owner = repo_url.split('/').next().unwrap_or("designed-re");
             let trigger_content = trigger_tpl
                 .replace("__PROJECT_KEY__", &key)
                 .replace("__REPO_OWNER__", repo_owner);
