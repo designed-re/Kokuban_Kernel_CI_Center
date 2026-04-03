@@ -406,7 +406,7 @@ pub fn handle_build(
         "main" | "lkm" => "LKM".to_string(),
         "ksu" => "KSU".to_string(),
         "mksu" => "MKSU".to_string(),
-        "resukisu" | "sukisuultra" => "ReSuki".to_string(),
+        "resukisu" | "sukisuultra" => "SukiSU-Ultra".to_string(),
         _ => branch.to_uppercase(),
     };
 
