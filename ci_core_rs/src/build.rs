@@ -320,7 +320,7 @@ pub fn handle_build(
 
     let setup_url = match branch.as_str() {
         "resukisu" => Some((
-            "https://raw.githubusercontent.com/ReSukiSU/ReSukiSU/main/kernel/setup.sh",
+            "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/refs/heads/main/kernel/setup.sh",
             "builtin",
         )),
         "mksu" => Some((
